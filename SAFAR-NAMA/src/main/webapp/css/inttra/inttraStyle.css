@@ -1,0 +1,241 @@
+/* START COMMON PORTAL LAYOUT STYLES */
+
+/*START HEADLINE STYLES*/
+h1, h2, h3, h4, h5 {
+	font-family: Tahoma, Verdana, Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: 300;
+}
+
+p {
+    margin: 0 0 10px 30px !important; 
+} 
+.inlineP{
+	display:inline-block; margin-left:0px !important;
+}
+.marginLeft30{
+	margin-left:30px;
+}
+.login-content {
+    padding-top:20px;
+    padding-bottom:60px;
+}
+.contentBg{
+	background: #fff url(../img/inttra-sig-pattern4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    overflow-x: hidden;
+    
+}
+
+.info-title{
+	font-size:20px !important;
+	margin-bottom:0px;
+}
+.textBold{
+	font-weight:bold;
+}
+.marginBottom{
+	margin-bottom:10px
+}
+.glyphicon-hand-right{
+	font-size:20px;
+	position: relative;
+    top: 4px;
+    padding: 0px 5px 0px 0px;
+	color:#f00;
+}
+
+
+.clear{clear: both;}
+.navbar {
+	margin-bottom: 0px;
+}
+ 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+img{border:0 none !important;}
+/*FIX ALIGNMENT OF FORM SECTION HEADERS*/
+  
+ 
+#inttra-header .navbar .navbar-brand {
+	position: relative;
+	left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 41px !important;
+}
+/*MAIN NAV MENU PADDING*/
+#inttra-header .nav > li > a {
+	padding: 10px 13px;
+}
+/*MAIN NAV MENU PADDING*/
+
+ 
+footer {
+	background-color: #272727;
+	min-height: 100px;
+}
+.copyright {
+	color: #959595;
+	margin-top: 8px;
+}
+.footer-links, .footer-links a:link, .footer-links a:visited, .footer-links a:active {
+	color: #959595;
+}
+.footer-links a:hover {
+	color: #029EAD;
+}
+  
+.icon-link-pad {
+	margin-right: 2px;
+}
+.cursor-default {
+	cursor: default;
+}
+.cursor-pointer {
+	cursor: pointer;
+}
+ 
+.normal-cobrand-logo {
+	margin-right: -15px;
+}
+.marginLeft0 {
+	margin-left:0px !important;
+}
+.pushdown1 {
+	margin-top: 1px;
+}
+.pushdown2 {
+	margin-top: 2px;
+}
+.pushdown3 {
+	margin-top: 3px;
+}
+.pushdown4 {
+	margin-top: 4px;
+}
+.pushdown5 {
+	margin-top: 5px;
+}
+.pushdown6 {
+	margin-top: 6px;
+}
+.pushdown7 {
+	margin-top: 7px;
+}
+.pushdown8 {
+	margin-top: 8px;
+}
+.pushdown9 {
+	margin-top: 9px;
+}
+.pushdown10 {
+	margin-top: 10px;
+}
+
+.pushdown20 {
+	margin-top:20px !important;
+}
+
+.margin-top-35{
+	margin-top:-35px !important;
+}
+ 
+ 
+.center-image {
+	float: none;
+	margin: 0 auto;
+}
+  
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom:0px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+}
+
+.btn *{
+	cursor:pointer;
+}
+
+.linkBtn
+	{
+	  border: none;
+	  background: transparent;
+	  color: #337ab7;
+	  outline:none;
+	}
+
+
+ 
+  
+@media (max-width: 767px) {
+	/*ADD SOME MARGINS TO INLINE BUTTONS AT X-SMALL*/
+	
+	
+	 
+	#inttra-header .navbar {
+		min-height: 50px !important;
+	}
+	.navbar-nav > li > a {
+		margin-top: 0px !important;
+	}
+	#inttra-header .navbar-nav > li > a {
+		margin-top: 0px !important;
+	}
+	.clr-pad-at-xs {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.fieldpad-lt-5-xs-sm {
+		padding-left: 5px;
+	}
+	.footer-padding {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.nav-pills > li + li {
+		margin-left: 0px;
+	}
+	label.section-help {
+		margin-top: 0px;
+
+	}
+
+	/*UPDATES FOR SHOP MARKETPLACE LINK*/
+	.shop-link{
+		float:left !important;
+		width:100%;
+	}
+	/*UPDATES FOR SHOP MARKETPLACE LINK*/
+}
+@media (min-width: 768px) {
+	 
+}
+@media (min-width: 992px) {
+	 
+}
+@media (min-width: 1200px) {
+	 
+}
+ 
+/*ADDED FOR PRINTER FRIENDLY PAGES WHERE PRINT.CSS NOT GETTING ADDED*/
+/* END MEDIA QUERY CLASSES */

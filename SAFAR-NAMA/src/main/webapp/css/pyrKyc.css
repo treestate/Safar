@@ -1,0 +1,124 @@
+/***** Alphabet Search CSS START *****/
+
+
+.alphabetList ul{
+ 	width:100%; 
+ 	margin-top: 4px;
+}
+		
+.alphabetList ul li{
+	display:inline;
+ 	padding:3px 6px;
+}
+		
+.alphabetList ul li:hover{
+	 border:solid 1px #ccc;
+	 padding:3px 6px;
+	 color:#333;
+}
+
+.alphabetList .active{
+  	background:#333;
+  	color:#fff;
+  	padding:3px 6px;
+}
+.alphabetList .active:hover{
+  	background:#333;
+  	color:#fff;
+  	padding:3px 6px;
+}
+/***** Alphabet Search CSS END *****/
+
+.saveIcon{
+	font-size:19px !important;;
+	color:#28B076 !important;;
+	/* color:#28B071; */
+}
+.saveIcon:hover {
+color:#077345 !important;
+} 
+
+.kycDetails.dropdown.dropdown-lg .dropdown-menu {
+	margin-top: -1px;
+	padding: 6px 20px;
+ }
+.kycDetails .input-group-btn .btn-group {
+    display: flex !important;
+}
+.kycDetails.btn-group .btn {
+    border-radius: 0;
+    margin-left: -1px;
+}
+.kycDetails.btn-group .btn:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.kycDetails.btn-group .form-horizontal .btn[type="submit"] {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.kycDetails.form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+.kycDetails.form-group .form-control:last-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;	 
+}
+
+.kycDetails .input-group-btn .dropdown-toggle {
+	height:35px;
+}
+
+.kycDetails .input-group-btn button:focus {
+	background:#337ab7;
+}
+
+.kycDetails.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover{
+	border-color: #ccc;
+} 
+
+.kycDetails.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default{
+	background:#ccc;
+	border:solid 1px #ccc;
+}
+
+.kycDetails .dropdown-menu{
+  min-width:344px !important;
+}
+
+.kycSearchInput{
+   width: 100%;
+   height: 35px;
+   padding: 5px;
+}
+
+.kycSearchInput:focus{
+ border:solid 1px #ccc;
+}
+
+.srchBtn {
+    background: #337ab7;
+}
+
+.srchBtn .fa-search:before{
+	color:#fff;
+}
+
+.srchBtn:hover{
+	background:#337ab7;
+}
+
+@media screen and (min-width: 768px) {
+    #adv-search {
+        width:80%;
+        margin:0px auto auto 100px;
+		
+    }
+    .dropdown.dropdown-lg {
+        position: static !important;
+    }
+    .dropdown.dropdown-lg .dropdown-menu {
+        min-width: 500px;
+    }   
+}

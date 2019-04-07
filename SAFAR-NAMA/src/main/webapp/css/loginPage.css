@@ -1,0 +1,1151 @@
+/*********	LOGIN  ****/
+html,body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333;
+	background-color: #fff;
+	height:100% !important;
+ 
+	}
+	
+.row-fluid{
+	height:100% !important;
+}
+
+.fullHeight{
+	height:100% !important;
+	padding-right:0px;
+}
+ 
+.clear {
+    clear: both;
+}
+li {
+	list-style: none;
+}
+.modal-dialog {
+	z-index:9999
+}
+.modal-title {
+	color:white;
+}
+.modal-footer {
+    /* padding: 14px; */
+    text-align: center;
+    border-top: 0px solid #e5e5e5;
+    margin: 0;
+}
+.modal-content {
+    padding: 0px 0px 0px 0px;
+    height: 57%;
+}
+
+.padding0{
+	padding:0px;
+}
+
+.select {
+    padding: 0px;
+     
+}
+select {
+    margin: 0;
+    border-bottom: 1px solid;
+    color: #555;
+    font-size: 12px;
+    width: 100%;
+    border: none;
+    outline: none;
+    vertical-align: middle;
+    margin-top: -21px;
+    line-height: 18px;
+    cursor: pointer;
+    background: #fff !important;
+	display:none !important;
+}
+
+a{
+	color: #fff !important;
+	text-decoration: none;
+	} 
+
+a:hover{
+	color: #ccc!important;
+	text-decoration: none;
+}
+
+
+.padding0{
+padding:0px;
+} 
+
+.padding10{
+padding:10px;
+} 
+
+.paddingBottom10{
+ padding-bottom:10px;
+}
+.paddingTop10{
+ padding-top:10px;
+}
+
+.marginBottom10{
+ padding-bottom:10px;
+} 
+.marginTop6{
+ margin-top:6px !important;
+} 
+.marginTop10{
+ margin-top:10px !important;
+} 
+
+.marginLeft20 {margin-left:20px;}
+.marginLeft10{margin-left:10px;}
+.marginLeft17 {margin-left:17px !important;}
+.marginLeft23 {margin-left:23px !important;}
+
+.marginTop20{margin-top:20px !important;}
+.marginTop30{margin-top:30px !important;}
+.marginTop40{margin-top:40px !important;}
+.marginTop5{margin-top:5px !important;}
+
+.marginBottom5{
+ padding-bottom:5px;
+} 
+
+.textBold{font-weight:bold !important;}
+
+.btn-block+.btn-block {
+  margin-top:0px !important;
+} 
+
+header .navbar {
+    min-height: 40px;
+    border: 0px none;
+    margin-bottom: 16px;
+}
+.navbar-default {
+    margin: 0px 15px;
+}
+.navbar-default, .navbar .logo img {
+    background: transparent none repeat scroll 0% 0% !important;
+}
+.navbar-default {
+    background-color: #EAEAEA;
+    border-color: #e7e7e7;
+}
+
+.contactdtl {
+    text-align: right;
+    float: right;
+    color: #fff;
+}
+
+.container .select 
+	{
+	background: transparent;
+	position: relative;
+	border: none;
+	display: block;
+	width:none!important;
+	border-radius:0px;
+	height: 10px;
+	box-shadow:none;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 4px 3px 6px;
+	background: bottom left url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2E5YTlhOSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2E5YTlhOSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==') no-repeat, bottom center url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2E5YTlhOSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2E5YTlhOSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==') repeat-x, bottom right url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2E5YTlhOSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2E5YTlhOSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==') no-repeat;
+	-moz-background-size: 1px 6px, 1px 1px, 1px 6px;
+	-o-background-size: 1px 6px, 1px 1px, 1px 6px;
+	-webkit-background-size: 1px 6px, 1px 1px, 1px 6px;
+	background-size: 1px 6px, 1px 1px, 1px 6px;
+}
+
+
+	.form-login {
+		width:300px;
+		background: #transparent;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-ms-border-radius: 5px;
+		-o-border-radius: 5px;
+		 border-radius: 5px;
+		 margin:50px auto;
+		 clear:both;
+	}
+	
+	.outerform-login {
+		max-width: 400px;
+		margin: 0px auto 0;
+		background: #fff none repeat scroll 0 0;
+		-webkit-border-radius: 5px;
+		   -moz-border-radius: 5px;
+		    -ms-border-radius: 5px;
+		     -o-border-radius: 5px;
+		        border-radius: 5px;
+	}
+
+	.form-login h2.form-login-heading {
+		 
+		padding: 20px 15px !important;
+		text-align: center;
+		text-transform: uppercase;
+		padding: 1px 0;
+		border-radius: 10px 10px 0 0;
+		background-color:#444;
+		color: #fff;
+		font-weight: 700;
+		font-size:24px;
+		margin:0px 0px !important;
+		font-family:"Roboto",sans-serif;
+		opacity:0.74 !important;
+	}
+	
+	.outerform-login h2.outerform-login-heading {
+		margin: 0;
+		padding: 20px 15px;
+		text-align: center;
+		background: #34495e none repeat scroll 0 0;
+		-webkit-border-radius: 5px 5px 0 0;
+		   -moz-border-radius: 5px 5px 0 0;
+		    -ms-border-radius: 5px 5px 0 0;
+		     -o-border-radius: 5px 5px 0 0;
+          		border-radius: 5px 5px 0 0;
+		color: #fff;
+		font-size: 18px;
+		text-transform: uppercase;
+		font-weight: 300;
+	}
+
+	.login-wrap {
+		background:#fff;
+		opacity: 0.9;
+		height:100%;
+	} 
+	.innerLoginWrap{
+		height:100%;
+		
+	} 
+
+    .inputWrap{
+		padding:10px 20px 20px 20px; 
+		display:table; 
+		width:100%; 
+		border-left: solid 1px #ccc;
+		border-right: solid 1px #ccc;
+	}	
+	
+ 
+	
+	.form-footer {
+		background-color: #717070;
+		padding: 6px 6px;
+		border-radius: 0px 0px 10px 10px;
+		z-index:-999;
+	}	
+	.form-footer span {
+		margin-bottom: 1px;
+		padding: 0px;
+		z-index:1;
+	}
+	.form-footer a{font-size:11px; margin-left:0px; color:#333; }
+	.form-footer  i{margin-left:5px;}
+	.fa-unlock-alt,.fa-check ,.fa-file-o,.fa-search-plus {
+		font-size: 10px !important;
+		color: #fff;
+		border-radius: 50%;
+		background-color: #505050;
+		padding: 4px 6px;
+		margin-right: 0px;
+		width: 20px;
+		height: 20px;
+	}  
+	
+	.outerlogin-wrap {
+		padding: 20px;
+		margin-bottom:20px;
+	} 
+	
+ 
+	.form-login input[type="text"], 
+	.form-login input[type="password"] {
+		margin-bottom:10px;
+		box-shadow: none;
+		font-size: 12px;
+		color:#333;
+	}
+	.outerform-login input[type="text"], 
+	.outerform-login input[type="password"] {
+		margin-bottom: 15px;
+		-webkit-border-radius: 5px;
+		   -moz-border-radius: 5px;
+		    -ms-border-radius: 5px;
+		     -o-border-radius: 5px;
+	            border-radius: 5px;
+		border: 1px solid #eaeaea;
+		box-shadow: none;
+		font-size: 12px;
+	}
+	.form-login .form-control {
+		background: transparent;
+		position: relative;
+		border: none;
+		display: block;
+		width: none!important;
+		border-radius: 0px;
+		height: 40px;
+		box-shadow: none;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		padding: 5px 8px 6px;
+		background: bottom left url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2E5YTlhOSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2E5YTlhOSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==') no-repeat, bottom center url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2E5YTlhOSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2E5YTlhOSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==') repeat-x, bottom right url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2E5YTlhOSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2E5YTlhOSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==') no-repeat;
+		-moz-background-size: 1px 6px, 1px 1px, 1px 6px;
+		-o-background-size: 1px 6px, 1px 1px, 1px 6px;
+		-webkit-background-size: 1px 6px, 1px 1px, 1px 6px;
+		background-size: 1px 6px, 1px 1px, 1px 6px;
+	}
+	.outerform-login .form-control {
+			position: relative;
+			font-size: 16px;
+			height: auto;
+			padding: 10px;
+			-webkit-box-sizing: border-box;
+			   -moz-box-sizing: border-box;
+				-ms-box-sizing: border-box;
+				 -o-box-sizing: border-box;
+					box-sizing: border-box;
+		}
+	.form-login .checkbox {
+		margin-bottom: 14px;margin-left:10px;
+	}
+	.outerform-login .checkbox {
+		margin-bottom: 14px;margin-left:10px;
+	}
+	.checkbox, .checkbox:hover, .checkbox:focus {
+		border: none;
+	}
+
+	.form-login .btn-login {
+		background: #1abc9c;
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: 300;
+		font-family: 'Open Sans', sans-serif;
+		box-shadow: 0 4px #16a085;
+		margin-bottom: 20px;
+	}
+
+	.outerform-login .btn-login {
+		background: #1abc9c none repeat scroll 0 0;
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: 300;
+		font-family: 'Open Sans', sans-serif;
+		box-shadow: 0 4px #16a085;
+		margin-bottom: 20px;
+	}
+
+	.form-login p {
+		text-align: center;
+		color: #b6b6b6;
+		font-size: 16px;
+		font-weight: 300;
+	}
+	.outerform-login p {
+		text-align: center;
+		color: #b6b6b6;
+		font-size: 16px;
+		font-weight: 300;
+	}
+
+.bgWrapper{
+	background:#fff;
+	height:100%;
+}  
+
+.login_wrapper{
+	background:transparent;
+	background-repeat: no-repeat, repeat;
+	height:auto !important;
+     
+} 
+
+.navbar-header {
+    float: left;
+    margin: 19px 0px;
+} 
+
+ 
+ 
+ 
+footer {
+    margin-top:15px;
+	position:relative;
+	bottom:0px;
+	 
+}  
+
+.global-footer-container{
+	color:#fff;
+	bottom:0px;
+	font-size:12px;
+}
+
+#global-footer.global-footer-dark,.global-nav-dark {background: #45474d} 
+.global-footer-copyright   {font-size:12px; font-family: 'Roboto Condensed', sans-serif;}
+.contactSupport h6 {font-size:1.2em;}
+.blinkContainer ul{width:70%;margin: 0 auto;}
+.blinkContainer ul li{padding:5px; font-size:14px; color:#fff; font-weight:bold;}
+.blinkContainer p {text-align:center; font-size:14px; color:#fff; width:95%; margin:0 auto; padding:0px;}
+ 
+
+.btn-block{width:40%; font-size:14px; float:left; margin:0 auto; border-radius:0px; background: #444 !important;
+    border: #444;}
+
+.btn-blockBig{width:40%; font-size:16px; margin:0 auto;}
+
+.colorWhite{width:35%; font-size:16px; margin:0 auto;color:#FFF;font-weight:bold;}
+
+
+/*** New Login Page Design css 20170413 ****/
+
+
+ .jobNotification{
+		color: #fff;
+		font-family: 'Roboto', sans-serif;
+		font-size:16px;
+		margin-top:140px;
+		
+	} 
+	.jobNotification .heading{
+		font-size:25px;
+		font-family:Candal;
+		
+	}
+	
+	.jobNotification .content{
+		font-size:16px;
+		font-family: 'Roboto', sans-serif;
+		padding-top:5px;
+	} 
+	.jobNotification a{
+		color:#fff !important;
+	} 
+	
+	.jobNotification a:hover{
+		color:#31b0d5 !important;
+	} 
+	
+	.marginTop90{
+	 margin-top:90px;
+	}
+	
+	.odexLogo {
+		margin:60px 0px 0px 0px;
+		padding: 0px;
+		width:98%;
+	} 
+	
+		
+	.btnWrap{
+		position:fixed;
+		bottom:12%;
+		width:10%;
+		left:56.5%;
+		
+	}
+
+	.contBtn,.regBtn{
+		font-size: 10px;
+		color:#fff;
+		text-decoration: underline;
+		margin-top: 3px;
+		text-align: left;
+		cursor: pointer;
+		display:block;
+		width:auto;
+		font-family: 'Roboto', sans-serif;
+	} 
+	
+	.footerBottom{
+		position: absolute; right: 0; bottom: 0 !important;	left: 0; padding:2px;
+		background-color:#000 !important;text-align: center; z-index:1;
+	}
+	
+	.displayNone{display:none;}
+	
+	
+	.contentBg{
+		background:#fff url(../img/odex_login_bg_20180716.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		-webkit-background-size:100% 100%;
+		-moz-background-size: 100% 100%;
+		-o-background-size: 100% 100%;
+		background-size: 100% 100%;
+		overflow-x:hidden;
+		height:100%;
+	} 
+
+	.notificationHeading{
+		font-size:30px;
+		font-weight: bold;
+		font-family: 'Roboto Condensed', sans-serif;
+		padding: 15px 10px 5px 21px;
+		position: absolute;
+	}
+	
+	.supportContHeading
+	{
+	  padding:5px 0px 5px 0px;
+	  color:#fff;
+	  font-size: 12px;
+      font-weight: bold;
+	  font-family: 'Roboto Condensed', sans-serif;
+	}
+	
+	.supportCont{
+	  color:#fff;
+	  font-size: 12px;
+      font-weight: bold;
+	  font-family: 'Roboto Condensed', sans-serif;
+		
+	}
+	
+	.serviceHeading{
+		width:71%;
+		height:46px;
+		line-height:46px;
+		padding:0px 0px 0px 8px;
+		background:#071c1d;
+		color:#ffa11d;
+		font-size:16px;
+		font-family: 'Roboto Condensed', sans-serif;
+		font-weight:bold;
+		
+	}
+	
+	.serviceContent{
+		width:71%;
+		min-height:183px;
+		padding:0px 0px 0px 5px;
+		background: rgba(58, 56, 56, 0.4);
+		font-size:16.9px;
+		font-family: 'Roboto Condensed', sans-serif;
+		font-weight:bold;
+		padding:8px;
+		color:#000;
+	}
+	
+	.contentColor{
+	 color:#ffcc00;
+	}
+	
+	.copyright{
+	    color:#fff;
+		margin: 0px 0px 0px 0px;
+		font-size: 11px;
+		position: absolute;
+		bottom: 0px;
+		text-align: center;
+		/* border: solid; */
+		left: 35%;
+		font-weight:bold;
+	}
+	
+	.closeBtn {
+		position: absolute;
+		top: 0px;
+		right: 3px;
+		cursor:pointer;
+	}
+
+	@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+	
+		.btnWrap{
+			position:fixed;
+			bottom:12%;
+			width:10%;
+			left:56.5%;
+		}
+	
+		.contBtn,.regBtn{
+			font-size: 10px;
+			color:#fff;
+			text-decoration: underline;
+			cursor: pointer;
+			overflow:auto;
+			display:block;
+			text-align:left;
+			 
+		} 
+
+	 
+    
+}
+
+
+@-moz-document url-prefix() { 
+		.btnWrap{
+			position:fixed;
+			bottom:13%;
+			width:10%;
+			left:56.6%;
+		}
+	
+		.contBtn,.regBtn{
+			font-size: 10px;
+			color:#fff;
+			text-decoration: underline;
+			position: relative;
+			cursor: pointer;
+			overflow:auto;
+			display:block;
+			text-align:left;
+			 
+		} 
+
+} 
+
+
+@media screen and (min-width:0\0) and (min-resolution: +72dpi) {
+	
+	.btnWrap{
+			position:fixed;
+			bottom:12%;
+			width:10%;
+			left:55%;
+		}
+	
+		.contBtn,.regBtn{
+			font-size: 10px;
+			color:#fff;
+			text-decoration: underline;
+			position: relative;
+			cursor: pointer;
+			overflow:auto;
+			display:block;
+			text-align:left;
+			 
+		} 
+}
+	
+/*** Login Page Responsive ***/ 
+
+
+	
+@media screen and (min-width:320px) and (max-width:480px) {
+	.textAligen{
+		width:60%;
+		margin:0 auto;
+	}
+	.copyright {
+		color: #fff;
+		font-size: 11px;
+		position: absolute !important;
+		bottom: 2px;
+		text-align: center;
+		left: 18%;
+		font-weight:bold;
+	}
+	.contentBg {
+		background:#fff url(../img/odex_login_bg__mobile_20180716.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		-webkit-background-size: 100% 100%;
+		-moz-background-size: 100% 100%;
+		-o-background-size: 100% 100%;
+		background-size: 100% 100%;
+		overflow-x: hidden;
+		height:400px;
+	} 
+	
+	.copyright{
+		text-align:center;
+	} 
+	
+	.displayNoneMob{
+		display:none;
+	}
+	
+	.heightMobContent{
+		height:280px;
+	} 
+	
+	.fullHeight{
+		height:450px;		
+	}			
+	
+	.supportContHeading{
+	  padding:5px 23px;
+	  color:#fff;
+	} 
+	
+	.supportCont{
+	  padding:5px 23px;
+	   color:#fff;
+	}
+}
+
+@media screen and (min-width:320px) and (max-width:639px) {
+	
+			
+	.textAligen{
+		width:60%;
+		margin:0 auto;
+		text-align:center;
+	}
+	
+	.contentBg {
+		background:#fff url(../img/odex_login_bg__mobile_20180716.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		-webkit-background-size: 100% 100%;
+		-moz-background-size: 100% 100%;
+		-o-background-size: 100% 100%;
+		background-size: 100% 100%;
+		overflow-x: hidden;
+		height:400px !important;
+	} 
+	
+	.copyright {
+		color: #fff;
+		font-size: 11px;
+		position: absolute !important;
+		bottom: 2px;
+		text-align: center;
+		left: 18%;
+		font-weight:bold;
+	}
+	
+	
+	.textAligen{
+		width:60%;
+		margin:0 auto;
+		
+	}
+	
+	.odexLogo {
+		margin-top:0px !important;
+		width: 100%;
+	} 
+	
+	.form-login {
+    border-radius: 5px;
+    margin:10px auto !important;
+	width:260px !important;
+   }
+	 
+	
+	.form-footer a{
+		font-size:10px;
+	}
+	
+	.textIndent{
+		text-indent:8px;
+	} 
+	
+	select {
+   
+		display:black !important;
+	}
+	
+	.chosen-select {
+		display:block !important;
+	}
+	
+	.form-login .form-control{
+		height:35px;
+	} 
+	
+	.col-md-4{
+		width:100% !important;
+	}
+	
+	.notificationHeading{
+		position:relative;
+	}
+	
+	 
+	.copyright{
+		position:relative;
+		font-size: 10px;
+	} 
+	
+	.fullHeight{
+		padding:0px;
+		height:450px !important;
+	}
+	
+	.row-fluid{
+	  height:auto;
+	}
+	
+	.supportContHeading{
+	  padding:5px 23px;
+	  color:#fff;
+	} 
+	
+	.supportCont{
+	  padding:5px 23px;
+	   color:#fff;
+	}
+} 
+
+
+@media only screen and (min-width : 321px) {
+ 
+	.textAligen{
+		width:60%;
+		margin:0 auto;
+		text-align:center;
+		
+	}
+	
+	.odexLogo {
+		margin-top:50px !important;
+		width: 100% !important;
+	}  
+	
+	#global-footer.global-footer-dark, .global-nav-dark{
+	  background:#fff;
+	}  	
+}  
+
+
+ @media screen and (min-width:640px) and (max-width:959px) {
+	 
+	 .textAligen{
+	 	width:100%;
+	 	margin:0 auto;
+	 	text-align:center;
+	 }
+	 
+   .form-login {
+    border-radius: 5px;
+    margin:50px auto !important;
+	width:260px !important;
+   } 
+   
+   .odexLogo {
+		margin-top:50px !important;
+		width: 100% !important;
+	}  
+	
+	#global-footer.global-footer-dark, .global-nav-dark{
+	  background:#fff;
+	} 
+	
+	select {
+   
+		display:black !important;
+	} 
+	
+	.chosen-select {
+		display: block !important;
+	} 
+	.form-footer a{
+		font-size:10px;
+	} 
+	
+	.form-login .form-control{
+		height: 45px;
+	}
+	
+	.form-login .form-control{
+		height:38px;
+	}
+	
+	.contentBg{
+		height:auto;
+	}
+	
+	.floatR{
+		float:right;
+	}
+	
+	.clear{
+		clear:initial;
+	}
+	
+	.contBtn{
+		color:#fff;
+		font-size:10px;
+	} 
+	
+	 .fullHeight{
+		padding:0px;
+		height:auto !important;
+	}
+	
+	.supportContHeading{
+		text-align:right;
+	}
+	.supportCont{
+		text-align:right;
+	}
+	
+	.col-sm-6 {
+		width: 100% !important;
+	}
+}
+
+
+@media screen and (min-width:960px) and (max-width:1279px) {
+	
+	.textIndent{
+		text-indent:7px;
+	}
+	
+	.textAligen{
+		width:100%;
+		margin:0 auto;
+		
+	}
+	
+	.odexLogo{
+		margin-top:60px;
+		width:40% !important;
+		background:#fff;
+	} 
+	
+	.form-footer a{
+		font-size:10px;
+	} 
+	
+	.form-login {
+		border-radius: 5px;
+		margin: 53px -17px !important;
+		width: 300px;
+	} 
+	
+	.floatR{
+		float:right;
+	}
+	
+	.clear{
+		clear:initial;
+	}
+	
+	.contBtn{
+		color:#fff;
+		font-size:10px;
+	}
+	
+	.contentBg {
+		height:100% !important;
+	}
+	
+	.serviceContent{
+		font-size:11.9px;
+		min-height:160px
+	}	
+	
+	.serviceHeading{
+		font-size:13px;
+	}
+	
+	.supportCont{
+		font-size:9px;
+	}
+	
+	
+} 
+
+@media screen and (min-width:1024px) and (max-width:768px) {
+	
+	.textIndent{
+		text-indent:7px;
+	}
+	.textAligen{
+		width:100%;
+		margin:0 auto;
+	 }
+	.odexLogo{
+		margin-top:60px;
+		width:40% !important;
+		background:#f00;
+	} 
+	
+	.form-footer a{
+		font-size:10px;
+	} 
+	
+	.form-login {
+		border-radius: 5px;
+		margin: 53px -17px !important;
+		width: 300px;
+	} 
+	
+	.floatR{
+		float:right;
+	}
+	
+	.clear{
+		clear:initial;
+	}
+	
+	.contBtn{
+		color:#fff;
+		font-size:10px;
+	}
+	
+	.contentBg {
+		height:auto !important;
+	}
+	
+	.serviceContent{
+		font-size:12.9px;
+		min-height:160px !important;
+	}	 
+	
+	 
+}
+
+@media screen and (min-width:1280px) and (max-width:1599px) {
+	.content{
+		 position:relative;
+		 top:83%;
+		left:16%;
+	} 
+	
+	.textAligen{
+		width:100%;
+		margin:0 auto;
+	 }
+	
+	.odexLogo{
+		margin-top:60px;
+	} 
+
+
+	
+	
+	 
+	
+} 
+
+@media only screen and (max-width: 1280px) and (min-height:600px) {
+ 
+ 
+	.content {
+    left: 29% !important;
+    
+	} 
+	
+	
+	.loginSection {
+		margin: 20px auto;
+		width: 53% !important;
+	} 
+	
+	
+	
+ 
+
+}
+
+@media only screen and (max-width: 1280px) and (min-height:800px) {
+
+	.odexLogo{
+		margin-top:60px;
+		width:100% !important;
+	}
+	
+	.bgWrapper {
+		background:none;
+		background-repeat: no-repeat;
+		background-position: right;
+		-webkit-background-size:cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		 
+	} 
+	
+		.btnWrap{
+		 margin-top:528px; overflow:auto; position:relative; padding-left:20px;
+		
+	}
+	
+	 
+
+	.content {
+    left: 29% !important;
+    
+	} 
+	
+	.loginSection {
+		margin: 20px auto;
+		width: 100% !important;
+	}
+	
+ 
+
+} 
+
+
+
+
+@media screen and (min-width:1600px) {
+	
+	.content{
+		 position:relative;
+		top:45%;
+		left:15%;
+	}
+	
+}
+@media screen and (min-width:1920px) {
+	
+	.content{
+		 position:relative;
+		top:45%;
+		left:15%;
+	}
+	
+} 
+
+@media (device-width: 100vw) and (device-height: 100vh) {
+
+	.odexLogo{
+		margin-top:120px;
+		width:70%;
+		} 
+	
+	.form-login {
+		width:300px;
+		background: #transparent;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-ms-border-radius: 5px;
+		-o-border-radius: 5px;
+		 border-radius: 5px;
+		 margin:50px 40px;
+	}
+	
+	 
+	.btnWrap{
+			position:fixed;
+			bottom:12%;
+			width:10%;
+			left:49.5%;
+		} 
+		
+	.contentBg{
+		background-repeat: no-repeat;
+		background-position: center top;
+		-webkit-background-size:100% auto;
+		-moz-background-size:100% auto;
+		-o-background-size:100% auto;
+		background-size:100% 100%;
+		overflow:hidden;
+		height:auto;
+	} 
+	
+		 
+}

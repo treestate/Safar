@@ -1,0 +1,341 @@
+/*  
+ * =================== Start pricing table =====================*/
+ .span2{ 
+	width: 19%;
+    float: left;
+    margin: 0 4px;
+   } 
+  .span3{
+	 width:30%;
+    float: left;
+    margin: 0 4px;
+	  
+  }
+
+  .plan-name label span i {    			
+	opacity: 0;		
+}
+.plan-name .active span i{				
+	opacity: 1;		
+	font-size:12px;	
+	line-height:16px;
+} 
+
+
+.kycSubmission{
+	background:#7986CB;
+}
+.kycSubmission label span i{
+	opacity: 0;	
+	
+} 
+
+.kycSubmission.active span i{
+	opacity: 1;		
+	font-size:12px;	
+} 
+
+.kycSubmission label input[type=checkbox]{
+	float:none; 
+	text-align:center;
+    position: absolute;
+    clip: rect(0,0,0,0);
+    pointer-events: none;
+}
+
+.plan-name  label{float:none; color:#fff; font-weight:bold; font-size:16px;}
+ 
+
+.plan-name .innerCircle{
+	width: 20px;
+    height: 20px;
+    border-radius: 26px;
+    line-height: 15px;
+    padding: 0px;
+    margin: 0px 0px 0px 2px;
+} 
+
+.plan-name label {
+padding:0px; 
+margin:0px 0px 0px 2px ;
+font-size:10px;
+float:left;
+top:0px;
+	
+}
+
+.plan-name label input[type=checkbox]{
+	float:none; 
+	text-align:center;
+    position: absolute;
+    clip: rect(0,0,0,0);
+    pointer-events: none;
+}
+
+.pricing-table .plan {
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f3f3f3;
+  -moz-box-shadow: 0 0 6px 2px #b0b2ab;
+  -webkit-box-shadow: 0 0 6px 2px #b0b2ab;
+  box-shadow: 0 0 6px 2px #b0b2ab;
+}
+
+.pricing-table .plan:hover {
+  background-color: #fff;
+  -moz-box-shadow: 0 0 12px 3px #b0b2ab;
+  -webkit-box-shadow: 0 0 12px 3px #b0b2ab;
+  box-shadow: 0 0 12px 3px #b0b2ab;
+}
+
+
+.pricing-table .plan .plan-name {
+  padding:3px;
+  color: #fff;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+  overflow:hidden;
+}
+.pricing-table .plan .plan-name span {
+  font-size:15px;
+}
+
+.pricing-table .plan ul {
+  list-style: none;
+  margin: 0;
+  -moz-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+}
+
+.pricing-table .plan ul li.plan-feature {
+  padding:5px 5px;
+  border-top: 1px solid #c5c8c0;
+  font-size:12px;
+
+} 
+.pricing-three-column {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.pricing-five-column {
+  width: 100%;
+  overflow:auto;
+  min-height:116px;
+}
+
+.pricing-variable-height .plan {
+  float: none;
+  margin-left: 2%;
+  vertical-align: bottom;
+  display: inline-block;
+  /* Support for inline-block in IE7 */
+  zoom:1;
+  *display:inline;
+}
+
+.plan-mouseover {
+  background-color: #ef944d !important;
+}
+
+.btn-plan-select {
+  padding: 8px 25px;
+  font-size: 18px;
+} 
+
+.planeCart{
+    width: 26%;
+    border-left: solid 2px #ccc;
+    float: left;
+    position: relative;
+    right: 0px;
+    height:auto;
+	
+} 
+
+.planeCart .vgmpricing{
+	 width:100% !important;
+	 margin-left:10px;
+	} 
+	
+.planeCart .vgmpricing td{
+	 padding:5px !important;
+}
+.pricingTabContent{
+	width:74%; float:left !important;
+} 
+
+.pricingTabContent .pricingTabHeading{font-size:14px; font-weight:bold; text-align:center; } 
+
+.planDetailsAmt{float:right;}
+.planDetailsAmt i{ margin-top: 10px; margin-right: 5px;}
+.selectFullWidth{width:100% !important;}
+.plan-name .btn-success{border:solid 2px #fff !important; background:none;}
+.plan-name .btn-success.active{background:none;} 
+.plan-name .btn-success.active .fa-circle{color:#fff;}
+.pricing-table fieldset{width:99% !important; padding: 3px 0px 10px 3px; border:solid 2px #ccc;} 
+.pricingTabContent select{background: transparent !important;}
+
+.pricingTabContent ul li .btn-default:hover {
+    color: #333 !important;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+} 
+.planeCart table td{text-align:left;}
+.planeCart table .text-right{text-align:right !important;}
+.selectPlan td {padding:0px 9px !important;} 
+
+.span2 table tr td +td  {
+   text-align:right;
+   padding-right:10px;
+   width: 41%;
+  
+}
+
+.span2 table tr td +td i{
+	float:none !important;
+	padding:2px;
+}  
+
+.span2 table{
+	padding: 10px; margin: 5px;
+    text-align: left;
+    font-size: 12px;
+    width: 99%;
+    line-height: 24px;
+}
+.span2 table td{
+	border-bottom:solid 1px #ccc;
+}
+ 
+ .span3 table{
+	padding: 10px; margin: 5px;
+    text-align: left;
+    font-size: 12px;
+    width: 99%;
+    line-height: 24px;
+}
+.span3 table td{
+	border-bottom:solid 1px #ccc;
+}
+ 
+
+ .span3 table tr td +td  {
+   text-align:right;
+   padding-right:10px;
+} 
+
+.span3 table tr td +td i{
+	float:none !important;
+	padding:2px;
+}  
+
+.bgSelfPlan{background:#9E9E9E;}
+.bgThirdpartyPlan{background:#61c5ef;}
+.bgCommPlan{background:#ce4949;}
+
+/* Button Style for subscription */
+
+.animate
+{
+transition: all 0.1s;
+-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+position: relative;
+padding: 10px 30px;
+margin: 0px 5px 5px 0px;
+float: right;
+border-radius: 10px;
+font-size:16px;
+color: #FFF;
+text-decoration: none;	
+}
+
+.red
+{
+background-color: #E74C3C;
+border-bottom: 5px solid #BD3E31;
+text-shadow: 0px -2px #BD3E31;
+}
+
+
+.action-button:active
+{
+transform: translate(0px,5px);
+-webkit-transform: translate(0px,5px);
+border-bottom: 1px solid;
+}
+
+ 
+
+.fixed_headers {
+		width:100% !important;
+		table-layout: fixed;
+		border-collapse: collapse;
+		}
+		.fixed_headers .header {
+		  text-decoration: none;
+		}
+		.fixed_headers .header,
+		.fixed_headers td {
+		  padding: 5px;
+		  text-align: left;
+		}
+		.fixed_headers td:nth-child(1),
+		.fixed_headers .header:nth-child(1) {
+		width:100px;
+		  
+		}
+		.fixed_headers td:nth-child(2),
+		.fixed_headers .header:nth-child(2) {
+		  width:100px; 
+		}
+		.fixed_headers td:nth-child(3),
+		.fixed_headers .header:nth-child(3) {
+		   width:200px;
+		}
+		.fixed_headers td:nth-child(4),
+		.fixed_headers .header:nth-child(4) {
+		   width:200px;
+		}
+		.fixed_headers td:nth-child(5),
+		.fixed_headers .header:nth-child(5) {
+		   width:200px;
+		}
+		.fixed_headers td:nth-child(6),
+		.fixed_headers .header:nth-child(6) {
+		   width:200px;
+		}
+		.fixed_headers td:nth-child(7),
+		.fixed_headers .header:nth-child(7) {
+		   width:200px;
+		}
+		.fixed_headers td:nth-child(8),
+		.fixed_headers .header:nth-child(8) {
+		   width:200px;
+		}
+		.fixed_headers td:nth-child(9),
+		.fixed_headers .header:nth-child(9) {
+		   width:200px;
+		}
+		.fixed_headers td:nth-child(10),
+		.fixed_headers .header:nth-child(10) {
+		   width:200px;
+		}
+		.fixed_headers td:nth-child(11),
+		.fixed_headers .header:nth-child(11) {
+		   width:200px;
+		}
+		.fixed_headers td:nth-child(12),
+		.fixed_headers .header:nth-child(12) {
+		   width:200px;
+		}
+
+
+/*
+ * =================== End pricing table =====================*/

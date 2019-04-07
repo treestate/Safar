@@ -1,0 +1,421 @@
+.wrap {
+	width: 100%;
+	margin: 0 auto;
+	text-align: left;
+	color: #989A8F;
+}
+
+.serviceWrap {
+	background-color: #ffffff;
+	height: 325px;
+	width: 100%;
+	margin-top:5px;
+}
+
+.serviceWrap ul li {
+	float: left;
+	width:17%;
+	text-align: center;
+	border-left: 2px solid #DDDCD8;
+	border-right: 2px solid #DDDCD8;
+	border-bottom: 2px solid #DDDCD8;
+	margin-left:2%;
+	border-radius:10px;
+	margin-bottom:40px;
+	margin-right:6%;
+}
+
+.top0{
+	background-color: #ec871e;
+}
+
+.top1{
+	background-color:#f1424e;
+}
+
+.top2{
+	background-color:#997fca;
+}
+
+.top3{
+	background-color:#34b965;
+}
+
+.top4{
+	background-color:#e8cd31;
+}
+
+.top5{
+	background-color:#B3E5FC;
+}
+
+.top6{
+	background-color:#B3E5FC;
+}
+
+.top0,.top1,.top2,.top3,.top4,.top4,.top5,.top6{
+	height:58px;
+	opacity:0.9;
+}
+
+.top0,.top1,.top2,.top3,.top4,.top5,.top6,h1 {
+	padding-top:5px;
+	font-size:16px;
+	margin-top: 0px;
+	color: #333;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	 
+}
+
+.chosen-container .chosen-results li{
+	 border:none !important;
+	 border-radius:0px !important;
+	 text-align: left;
+	 border: none !important;
+     border-radius: 0px !important;
+     text-align: left;
+     display: block !important;
+     width: 100%;
+}
+
+.chosen-container-single .chosen-single span:hover{
+	color:#000 !important;
+}
+
+.top0,.top1,.top2,.top3,.top4,.top5,.top6,.selectHeader h1 {
+	color: #fff !important;
+}
+
+.circle0,.circle1,.circle2,.circle3,.circle4,.circle5,.circle6 {
+	width:45px !important;
+	height:45px;
+	border-radius:40px;
+	font-size: 20px;
+	color: #fff;
+	line-height:60px;
+	text-align: center;
+	margin: 10px auto;
+	/*box-shadow:0px 0px 28px 6px #fff; */
+}
+.top img {
+	width: 80%;
+    margin-top: 7px !important;
+}
+
+
+.selected .circle0{
+	
+	background:#4c92b1;
+}
+
+.selected .circle1{
+	
+	background:#4c92b1;
+} 
+
+.selected .circle2{
+	
+	background:#4c92b1;
+}
+
+.selected .circle3{
+	
+	background:#4c92b1;
+}
+
+.selected .circle4{
+	
+	background:#4c92b1;
+} 
+
+.selected .circle5{
+	
+	background:#4c92b1;
+}
+
+.selected .circle6{
+	
+	background:#4c92b1;
+}
+
+.selected .circle{
+	
+	background:#000;
+}
+
+.circle0{
+	background:#ca6e10;
+}
+
+.circle1{
+	background:#c5242f;
+}
+
+.circle2{
+	background:#8662ca;
+}
+
+.circle3{
+	background:#40925e;
+}
+
+.circle4{
+	background:#caae0f;
+}
+
+.circle5{
+	background:#4FC3F7;
+}
+
+.circle6{
+	background:#4FC3F7;
+}
+
+ .bottom {
+	margin-top:35px;
+	clear:both;
+}
+
+.bottom p {
+	font-size: 13px;
+	font-family: 'Droid Serif', sans-serif;
+	padding: 5px;
+}
+
+.bottom p span {
+	font-weight: bold;
+}
+
+.bottom .select {
+	width:78%;
+	margin: 0 auto 0 5px;
+}
+
+.sign {
+	margin-top:20px;
+	margin-left:175px;
+}
+
+.sign .button {
+	/*border: 1px solid #989A8F; */
+    padding:6px 9px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 100%;
+    color: #989A8F;
+    font-size: 14px;
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: 14px;
+    top:-24px;
+    width: 10px;
+    height: 10px;
+    font-weight: bold;
+	position:relative
+}
+
+.selectHeader {
+	background-color: #52a3c6;
+	color: #fff !important;
+}
+
+.selectHeaderVGM {
+	background-color: #e57373;
+	color: #fff !important;
+}
+
+.white {
+	color: #FFFFFF;
+}
+
+.pink {
+	background-color: #ff660a;
+}
+
+.chosen-container-single .chosen-single span {
+    display: block;
+    /* margin-right: 26px; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #555;
+    font-size: 12px;
+    /* padding: 0px 0px 0px 6px; */
+    text-align: left;
+    padding: 5px !important;
+}  
+
+.chosen-container-single .chosen-single{
+	background:transparent !important;
+	border:solid 1px #ccc !important;
+	padding:0px;
+	border-radius:6px;
+} 
+
+.chosen-container .chosen-drop{
+	width:100%;
+}
+
+.selected .chosen-container-single .chosen-single{
+	border:solid 1px #52a3c6 !important;
+} 
+
+.wrapLi:hover .chosen-container-single .chosen-single{
+	border:solid 1px #52a3c6 !important;
+}
+
+.wrapLi:hover{
+ background:#CCC;
+}
+
+.wrapLi:hover .circle0 {
+background:#4c92b1;
+}
+
+.wrapLi:hover .circle1 {
+background:#4c92b1;
+}
+
+.wrapLi:hover .circle2 {
+background:#4c92b1;
+}
+
+.wrapLi:hover .circle3 {
+background:#4c92b1;
+}
+.wrapLi:hover .circle4 {
+background:#4c92b1;
+}
+
+.wrapLi:hover .circle5 {
+ background:#4c92b1;
+}
+
+.wrapLi:hover .circle6 {
+ background:#4c92b1;
+}
+
+.select {
+    display: block;
+    font-size: 12px;
+    color: #555;
+    background-color:transparent !important;  
+    background-image: none !important;
+    cursor: pointer;
+    height: 7px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    line-height: normal;
+	border:none;
+}
+
+.alert{
+	background:#f1f1f1 !important;
+	border:solid 1px #f1f1f1 !important;
+}
+
+.modal-body{padding:5px;}
+.modal-content{padding-bottom:0px !important;}
+.modal-body img{padding:0px; margin:0px !important;}
+.modal-body .modalClose 
+	        {
+			background: #333;
+			border: none;
+			color: #fff;
+			width: 21px;
+			height:21px;
+			border-radius: 100%;
+			position: absolute;
+			right: -9px;
+			top: -5px;
+			padding: 6px 0px;
+			font-weight: bold;
+			font-size: 23px;
+			cursor:pointer;
+   }
+.modal-body .fa-times-circle-o{
+	top:-2px;
+    position: absolute;
+    left:1px;
+}
+
+#svcPopUp{
+z-index:9999999
+}
+
+area{outline:none;}
+
+@media only screen and (max-width: 320px) 
+{
+	.sign {
+		margin-top: 20px;
+		margin-left: 160px;
+	} 
+	
+	.sign .button{
+		left:10px;
+	} 
+	
+  .select select
+       {
+	 border: solid 1px #ccc;
+	 margin-top: 0px;
+	 padding: 1px;
+	 border-radius: 5px;
+	 background: transparent;
+	}
+		 
+	
+} 
+
+@media screen and (max-width:480px)
+	{
+	  .sign {
+			margin-top: 20px;
+			margin-left: 172px;
+		}	
+	
+	  .sign .button{
+			left: 10px;
+		} 
+		
+		.select select
+		{
+			border: solid 1px #ccc;
+			margin-top: 0px;
+			padding: 1px;
+			border-radius: 10px;
+			background: transparent !important;
+			width: 78%;
+			padding: 8px;
+		} 
+	
+	.selected .select select{
+		border: solid 1px #5ea7c7;
+	}
+}
+
+	.modal-body .modalClose {
+	background: #333;
+	border: none;
+	color: #fff;
+	width: 21px;
+	height: 21px;
+	border-radius: 100%;
+	position: absolute;
+	right: -9px;
+	top: -5px;
+	padding: 6px 0px;
+	font-weight: bold;
+	font-size: 23px;
+	cursor: pointer;
+}
+ 
+ 	
+ 
+
+
+
+ 

@@ -1,0 +1,765 @@
+h2 {
+    font-size: 25px;
+}  
+ .form-control{background-color:transparent !important;}
+.textStyle{font-size:12px !important; font-weight:bold; padding:20px; margin-top:10px; margin-left:left;}
+.textBold{font-weight:bold;}
+.textStyle div{padding:5px;} 
+.modal-dialog{z-index:9999;}
+.modal-content{padding:0px !important;}
+.padding0{
+	padding:0px ;
+} 
+.paddingLeft{padding-left:20px !important; }
+
+	.marginTop10{
+		margin-top:10px;
+		} 
+		
+	.regFormWizard {
+		margin:5px auto;
+		background: #fff;
+		}
+
+    .regFormWizard .nav-tabs {
+        position: relative;
+        margin:0px auto;
+        margin-bottom: 0;
+        border-bottom-color: #e0e0e0;
+    }
+
+    .regFormWizard > div.regFormWizard-inner {
+        position: relative;
+    }
+
+	.connecting-line {
+    height: 2px;
+    background: #e0e0e0;
+    position: absolute;
+    width:77%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top:32px;
+    z-index: 1;
+}
+
+.regFormWizard .nav-tabs > li.active > a, .regFormWizard .nav-tabs > li.active > a:hover, .regFormWizard .nav-tabs > li.active > a:focus {
+    color: #555555;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+	background: none !important;
+}
+
+span.round-tab {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    border-radius:50px;
+    background: #fff;
+    border: 2px solid #e0e0e0;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 25px;
+}
+span.round-tab i{
+    color:#555555;
+}
+.regFormWizard li.active span.round-tab {
+    background: #fff;
+    border: 2px solid #5bc0de;
+    
+}
+.regFormWizard li.active span.round-tab i{
+    color: #5bc0de;
+}
+
+span.round-tab:hover {
+    color: #333;
+    border: 2px solid #333;
+}
+
+.regFormWizard .nav-tabs > li {
+    width: 25%;
+}
+
+.regFormWizard .nav-tabs > li {
+    width: 25%;
+}
+
+.regFormWizard li:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 0;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 5px solid transparent;
+    border-bottom-color: #5bc0de;
+    transition: 0.1s ease-in-out;
+}
+
+.regFormWizard li.active:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 1;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 10px solid transparent;
+    border-bottom-color: #5bc0de;
+}
+
+.regFormWizard .nav-tabs > li a {
+    width: 70px;
+    height:50px;
+    margin:5px auto;
+    border-radius: 100%;
+    padding: 0;
+}
+
+    .regFormWizard .nav-tabs > li a:hover {
+        background: transparent;
+    }
+
+.regFormWizard .tab-pane {
+    position: relative;
+    padding-top:10px;
+ 
+}
+
+.regFormWizard h3 {
+    margin-top: 0;
+} 
+.step1 {
+	min-height:200px;
+}
+.step2 {
+	min-height:380px;
+    overflow: auto;
+} 
+.step4{
+	min-height:400px;
+} 
+
+.step1 .row {
+    margin-bottom:10px;
+}
+.step_21 {
+    border :1px solid #eee;
+    border-radius:5px;
+    padding:10px;
+}
+.step33 {
+    border:1px solid #ccc;
+    border-radius:5px;
+    padding-left:10px;
+    margin-bottom:10px;
+}
+.dropselectsec {
+    width: 68%;
+    padding: 6px 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #333;
+    margin-left: 10px;
+    outline: none;
+    font-weight: normal;
+}
+.dropselectsec1 {
+    width: 74%;
+    padding: 6px 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #333;
+    margin-left: 10px;
+    outline: none;
+    font-weight: normal;
+}
+.mar_ned {
+    margin-bottom:10px;
+}
+.wdth {
+    width:25%;
+}
+.birthdrop {
+    padding: 6px 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #333;
+    margin-left: 10px;
+    width: 16%;
+    outline: 0;
+    font-weight: normal;
+}
+
+
+/* according menu */
+#accordion-container {
+    font-size:13px
+}
+.accordion-header {
+	font-size:13px;
+	background:#ebebeb;
+	margin:5px 0 0;
+	padding:7px 20px;
+	cursor:pointer;
+	color:#fff;
+	font-weight:400;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px
+}
+.unselect_img{
+	width:18px;
+	-webkit-user-select: none;  
+	-moz-user-select: none;     
+	-ms-user-select: none;      
+	user-select: none; 
+}
+.active-header {
+	-moz-border-radius:5px 5px 0 0;
+	-webkit-border-radius:5px 5px 0 0;
+	border-radius:5px 5px 0 0;
+	background:#F53B27;
+}
+.active-header:after {
+	content:"\f068";
+	font-family:'FontAwesome';
+	float:right;
+	margin:5px;
+	font-weight:400
+}
+.inactive-header {
+	background:#333;
+}
+.inactive-header:after {
+	content:"\f067";
+	font-family:'FontAwesome';
+	float:right;
+	margin:4px 5px;
+	font-weight:400
+}
+.accordion-content {
+	display:none;
+	padding:20px;
+	background:#fff;
+	border:1px solid #ccc;
+	border-top:0;
+	-moz-border-radius:0 0 5px 5px;
+	-webkit-border-radius:0 0 5px 5px;
+	border-radius:0 0 5px 5px
+}
+.accordion-content a{
+	text-decoration:none;
+	color:#333;
+}
+.accordion-content td{
+	border-bottom:1px solid #dcdcdc;
+}
+
+
+
+@media( max-width : 585px ) {
+
+    .regFormWizard {
+        width: 90%;
+        height: auto !important;
+    }
+
+    span.round-tab {
+        font-size: 16px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .regFormWizard .nav-tabs > li a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .regFormWizard li.active:after {
+        content: " ";
+        position: absolute;
+        left: 35%;
+    }
+} 
+
+/* Layout Css */ 
+  
+
+	  .form-login-heading { margin: 0 -14px; }
+
+	 .form-login-heading span {
+				color: #59bbdf;
+				padding: 0 5px;
+			} 
+			
+	.stage {
+			display: inline-block;
+			position: relative;
+			text-align: center;
+			min-height: 112px;
+		}
+
+	.stage:after {
+				position: absolute;
+				background-color: #eaeaea;
+				top: 50%;
+				margin-top: -33px;
+				width: 50%;
+				height: 5px;
+				border-top: 1px solid #d9d9d9;
+				border-bottom: 1px solid #d9d9d9;
+				content: '';
+			}
+
+	 .stage:before { left: 0; }
+	 .stage:after  { right: 0; }
+
+	 .stage:first-child:before { display: none; }
+	 .stage:first-child + .stage + .stage + .stage:after { display: none; }
+	 .stage-content {
+		width: 153px;
+		padding-left: 17px;
+		height:30px;
+		margin: 0 auto;
+	}
+
+	 .stage-title {
+			font: 400 12px 'calibriregular', sans-serif;
+			color: #464646;
+			padding-left: 0px;
+			text-align: left;
+		}
+
+	 .stage-info {
+			text-align: left;
+			color: #a8a8a8;
+			font-family: 'calibriregular', sans-serif;
+			font-size: 11px;
+			line-height: 1.4;
+			display: none;
+		}
+		
+		.regFormWizard  .form-wizard {
+			background-color: #f2f7f9;
+		} 
+		
+		.regFormWizard  .form-wizard {
+			padding: 0px 0px 0px;
+			border: 1px solid #d0dde1;
+			background-color: #f2f7f9;
+			-webkit-border-radius: 4px;
+			border-radius: 4px;
+			/*overflow:auto;*/
+		}
+		
+		 
+	    .form-login-heading {
+			margin: 0 -14px;
+			border-bottom: 1px solid #dadada;
+			color: #757575;
+			padding:10px;
+			background-color: #F0F0F0;
+			background-image: -moz-linear-gradient(top, #FFFFFF 0%, #F0F0F0 100%);
+			background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #F0F0F0));
+			background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #F0F0F0 100%);
+
+			-webkit-border-top-right-radius: 5px;
+					border-top-right-radius: 5px;
+			-webkit-border-top-left-radius: 5px;
+					border-top-left-radius: 5px;
+		}  
+		
+	
+/* lable */ 
+  .regFormWizard label {
+    color: #748286;
+    font-size:12px;
+}
+  .regFormWizard label {
+    font-size:11px;
+    font-family: 'calibriregular', sans-serif;
+    color:#748286;
+}
+.regFormWizard label {
+    display: block;
+    cursor: pointer;
+}	
+		
+/* Input Style */ 
+
+.regFormWizard input[type="text"], .regFormWizard input[type="password"] {
+    border: 1px solid #c4cdcf;
+    outline: 0 none;
+}
+.regFormWizard input[type="text"], .regFormWizard input[type="password"] {
+    background-color: #fff;
+}
+.regFormWizard input[type="text"], .regFormWizard input[type="password"] , textarea {
+    display: inline-block;
+    padding: 7px;
+    width: 100%;
+    border: 1px solid #7baab6 !important;
+    background-color:#f2f7f9;
+    color: #333;
+    font-size:11px;
+    font-family: 'calibriregular', sans-serif;
+    outline: 0 none;
+    font-style: normal;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0px -3px 0px 0px rgba(219, 219, 219, 0.75);
+    box-shadow: inset 0px -3px 0px 0px rgba(219, 219, 219, 0.75);
+    -webkit-appearance: none;
+    appearance: none;
+    -webkit-transition: border 0.2s linear, box-shadow 0.2s linear, background-color .35s ease;
+    transition: border 0.2s linear, box-shadow 0.2s linear, background-color .35 ease;
+}
+.regFormWizard input, .regFormWizard textarea, .regFormWizard select, .regFormWizard button {
+    -webkit-transition: all .35s ease-out;
+    transition: all .35s ease-out;
+}
+.regFormWizard button, .regFormWizard input, .regFormWizard select, .regFormWizard textarea {
+    margin: 0;
+    border: none;
+    vertical-align: baseline;
+    font-size: 100%;
+}
+.form-icon.form-icon-user {
+    background-position: right -19px;
+}
+.form-icon {
+    display: block;
+    background: url(../images/sprite.png) no-repeat 0 0;
+} 
+
+/*Select Style */
+
+.regFormWizard .dropdown-select:hover {
+    background-color: #F2F7F9;
+}
+.regFormWizard.dropdown-select {
+    color: #b5b5b5;
+}
+.regFormWizard .dropdown-select {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding:0px !important;
+    font-size:12px;
+    color: #b5b5b5;
+    background-color: transparent !important;
+    text-indent: 0.01px;
+    outline: none;
+    height:33px;
+    font-style: normal;
+	border:solid 1px #7baab6;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0px -3px 0px 0px rgba(219, 219, 219, 0.75);
+    box-shadow: inset 0px -3px 0px 0px rgba(219, 219, 219, 0.75);
+} 
+
+.dropdown-select select{padding:0px;}
+
+.form-header {
+    font: 16px;
+    padding-top: 4px;
+    padding-bottom: 0px;
+	overflow:auto;
+}
+ .steps {
+    color: #636363;
+	 float: right;
+} 
+
+fieldset{
+	border: 1px solid silver !important;
+    width: 98%;
+    margin:20px auto;
+} 
+
+legend {width:auto; font-size:16px; border:none; padding:5px; margin:0px;}
+
+.regFormWizard .table>thead>tr>th{
+font-size:12px; color:#748286
+
+} 
+.td-close-btn i{color:#f00 !important;}
+.fa-times{color:#f00 !important;}
+.input-block{margin:10px 0px 0px 0px;} 
+
+.required {
+    border-left: 3px solid #ff0000;
+    margin-right: 3px;
+} 
+
+/*Button */ 
+
+.regFormWizard.next {
+    float: right;
+}
+.regFormWizard.next, .regFormWizard .prev {
+    position: relative;
+    padding-top: 12px;
+} 
+
+.regFormWizard.button, .regFormWizard .button span {
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+.regFormWizard .button {
+    display: inline-block;
+    margin-bottom: 15px;
+	margin-left:15px;
+    padding: 0;
+    outline: none;
+    color: #fff;
+    vertical-align: baseline;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, .4);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'calibriregular', sans-serif;
+    padding: 1px;
+    background-image: -ms-linear-gradient(top, #00BDFD 0%, #047BD4 100%);
+    background-image: -moz-linear-gradient(top, #00BDFD 0%, #047BD4 100%);
+    background-image: -o-linear-gradient(top, #00BDFD 0%, #047BD4 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #00BDFD), color-stop(1, #047BD4));
+    background-image: -webkit-linear-gradient(top, #00BDFD 0%, #047BD4 100%);
+    background-image: linear-gradient(to bottom, #00BDFD 25%, #047BD4 100%);
+    background-size: auto 100%;
+    background-position: 0 100%;
+    -webkit-transition: background-position .5s ease, background-size .5s ease;
+    transition: background-position .5s ease, background-size .5s ease;
+}
+.regFormWizard input, .regFormWizard textarea, .regFormWizard select, .regFormWizard button {
+    -webkit-transition: all .35s ease-out;
+    transition: all .35s ease-out;
+}
+.regFormWizard button {
+    display: inline-block;
+    margin-bottom: 0;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    vertical-align: baseline;
+    text-align: center;
+    text-decoration: none;
+    font: 11px/1.5 Arial;
+    cursor: pointer;
+}
+.regFormWizard button, .regFormWizard input, .regFormWizard select, .regFormWizard textarea {
+    margin: 0;
+    border: none;
+    vertical-align: baseline;
+    font-size: 100%;
+}
+.regFormWizard button, .regFormWizard input[type="button"], .regFormWizard input[type="reset"], .regFormWizard input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: button;
+}
+
+.regFormWizard .button.button-control span b {
+    text-transform: none;
+    display: block;
+    font-weight: 200;
+    line-height: 1;
+    font-size: 12px;
+    font-family: 'calibriregular', sans-serif;
+} 
+
+.regFormWizard .next .button.button-control span {
+    padding: 6px 10px 6px 10px;
+}
+.regFormWizard .next .button.button-control span, .regFormWizard  .prev .button.button-control span {
+    text-align: left;
+    text-transform: none;
+    line-height: 1;
+}
+
+.regFormWizard  .button span {
+    border-top: 1px solid #6cdafe;
+    border-bottom: 1px solid #298eda;
+    border-left: 1px solid #28b0ef;
+    border-right:1px solid #0077c5;
+    display: inline-block;
+    padding: 2px 14px;
+}
+.regFormWizard  .button, .regFormWizard  .button span {
+    -webkit-border-radius: 4px;
+    border-radius:5px;
+}
+
+.regFormWizard .next .button-divider {
+    right: 34px;
+}
+li .next .button-divider, .regFormWizard .prev .button-divider {
+     
+    height:100%;
+    width: 2px;
+    border-right: 1px solid #0077c5;
+    border-left: 1px solid #49c7f6;
+    top: 378px;
+} 
+
+.buttonIconPosition{
+	position: relative;
+    top: 0px;
+    right:5px;
+    font-size: 22px !important;
+    padding-left: 7px;
+}
+	
+ 
+
+.btn-link{
+	font-weight: 400;
+    color: #337ab7 !important;
+    border-radius: 0;
+} 
+
+.regFormWizard .next {
+    float: right;
+}
+.regFormWizard .next,.regFormWizard .prev {
+    position: relative;
+    padding-top: 12px;
+}
+.placeholder_phone{color:#f00;}
+
+.form-title  {
+    font-weight: 200;
+    color: #757575;
+	font-size:16px;
+}
+
+.SlectBox
+	{
+	width:399px; 
+	height:37px; 
+	border-radius: 2px;
+    -webkit-box-shadow: inset 0px -3px 0px 0px rgba(219, 219, 219, 0.75);
+    box-shadow: inset 0px -3px 0px 0px rgba(219, 219, 219, 0.75);
+	font-size: 12px;
+  } 
+  
+  .SumoSelect > .CaptionCont > span.placeholder {
+    color: #ccc;
+    font-style:normal;
+	padding-top:3px;
+} 
+
+.hide{
+font-size: 12px;
+color: #748286;	
+	
+} 
+
+.borderRight{
+	border-right: solid 1px #ccc;
+    height:295px;
+} 
+
+.ajs-header{color:#fff;}
+
+/* Table Responsive */
+.selectMultiNew {
+   border: none !important;
+   background: transparent !important;
+   margin-top:3px !important;
+   border: solid 1px #7baab6 !important;
+   /* overflow: auto; */
+   height: 33px !important;
+   background-color: white !important;
+   background-color: white !important;
+   /*margin-top:21px !important;*/
+   border-radius: 3px !important;
+   display: block;
+    font-size: 12px;
+    color: #555;
+    background-image: none;
+    cursor: pointer;
+}
+
+.multiselect {
+    margin-top:26px !important;
+	background:#f2f7f9 !important;
+}
+
+.multiselect-selected-text {
+    color: #333 !important;
+} 
+
+.multiselect-container {
+	top:58% !important;
+}
+
+.selectMultiNew .caret {
+	color:#000 !important;
+	position: absolute;
+    right: 5px;
+    top: 4px;
+}
+.innerTab .nav-tabs li{
+ width:auto;
+ background:#ccc;
+ padding:0px;
+ margin:0px;
+ border-right:solid 1px #808080;
+} 
+.innerTab .nav-tabs li.active {
+   background:#5bc0de;
+   color:#fff;
+   
+} 
+
+.innerTab .nav-tabs li .active a:hover{
+ color:#fff !important;
+} 
+
+.innerTab .nav-tabs > li.active > a, .innerTab .nav-tabs > li.active > a:hover, .innerTab .nav-tabs > li.active > a:focus {
+    color: #fff;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+
+.innerTab .nav-tabs li.active a{
+    padding:11px !important; 
+	background:#5bc0de;
+	color:#fff;
+}
+
+.innerTab .nav-tabs li a{
+ padding:10px !important;
+ margin:0px !important;
+ color:#000;
+ height:auto;
+ width:auto;
+ border-radius:0px;
+} 
+.regular-checkbox{position:relative; top:3px;}.
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
+	background:#ccc !important;
+}
+.multiselect-container li.active a label {background:#ccc !important;}
+ .input-group-addon {border:1px solid #7baab6 !important;}
+ .icon_position {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}

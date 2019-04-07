@@ -1,0 +1,252 @@
+
+/* CSS for Offer */
+.diwaliOffer{
+  margin:80px auto;
+  width:800px;
+} 
+
+.btnPostionOfferButton{
+	position: relative;
+	top:209px;
+    left:127px;
+} 
+
+.btnPostionOfferButton:focus{
+	background:#f5822a;
+	outline:none;
+} 
+
+.diwaliHeaderImage{
+	/* background-image: url("../img/diwaliHeaderImage.png");
+	 height:70px;*/
+}  
+
+.diwaliOfferBanner{
+	 background-image: url("../img/diwalibanner.png");
+	 background-repeat:none;
+	 height:274px;
+	 width:800px;
+}
+
+.serviceNotification{
+	background-image: url(../img/pilBanner.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 524px;
+}
+
+.diwaliBanner {
+	 background-image: url("../img/seminarBanner.jpg");
+	 background-repeat:none;
+	 height:274px;
+	 width:800px;
+}
+.addBanner{
+	 width:809px;
+ }
+ 
+ .btnFeedback{
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  padding:3px;
+  width:auto;
+  margin:3px 0px;
+  font: 200 11px/16px "PT Sans", sans-serif;
+  letter-spacing: .1em;
+  font-size:0.10.1em;
+  text-transform: uppercase;
+  border: 2px solid #f5822a;
+  background: #f5822a;
+  color: #fafafa;
+  text-decoration:none !important;
+  margin-left:175px;
+  /* .style1 */
+  /* .style2 */
+  /* .style3 */
+ }
+
+.btnFeedback.LogSign:hover, .btnFeedback.LogSign:active {
+  border-radius:0px;
+  background: transparent;
+  letter-spacing: .1em;
+ color: #fafafa;
+} 
+
+.btnFeedback.LogSign {
+  -moz-transition: background 0.15s linear, border-radius 0.25s ease-out, letter-spacing ease-in, color 0.2s;
+  -o-transition: background 0.15s linear, border-radius 0.25s ease-out, letter-spacing ease-in, color 0.2s;
+  -webkit-transition: background 0.15s linear, border-radius 0.25s ease-out, letter-spacing ease-in, color 0.2s;
+  transition: background 0.15s linear, border-radius 0.25s ease-out, letter-spacing ease-in, color 0.2s;
+ } 
+ 
+ .btnContainerPosition{
+	margin: 0 auto;
+    width: 100%;
+    position: relative;
+    top: 198px;
+    left: 235px
+ }
+ .bannerHeader{
+	 padding:5px !important;
+	 border:none !important;
+ }
+ 
+  .modal-header .close{
+	 margin-top: -9px !important;
+ } 
+ 
+  .bannerContent{
+    padding: 0px 0px 0px 0px !important;
+    background: none;
+    overflow: hidden !important;
+    height: 200px !important;
+    top: 45px;
+    width: 524px;
+    border-radius: 19px;
+    margin: 0 auto;
+	
+   }
+.btnPostionMob{margin-top:-17px;}
+
+.closeBanner {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    /* opacity: .2; */
+    width: 25px !important;
+    height:25px !important;
+    border-radius: 25px !important;
+    /* margin-left: -62px; */
+    position: relative;
+    top:13px;
+    left:11px;
+    z-index: 1;
+	background:#000 !important;
+}
+.closeBanner:hover{
+ background:#000; 
+ color: #fff;
+}
+.contentBoby{
+padding:0px;
+border:none;
+} 
+
+.diwaliBanner a{
+	color:#fff;
+	font-weight:bold;
+}  
+
+.diwaliOfferBanner a{
+	color:#e1293c;
+	font-weight:bold;
+}
+
+.da-link{color:#ccc;}
+
+.modal-backdrop.in{
+	
+	    opacity: 0 !important; 
+}
+.OrangeButton{
+		border:0px;
+		padding:10px 20px; 
+		border-radius:5px;
+		background:#f5822a;
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcb737', endColorstr='#fcb737', GradientType=0 );
+		color:#fff;
+		width:40%;
+}
+
+.bannerCLoseBtn {
+	margin-right: 16px; 
+	top: -10px;	
+}
+
+.bannerLinkPosition {
+	position: absolute;
+	top: 180px;
+	left: 300px;
+}
+
+.vgmAwareness{
+	 background-image: url("../img/vgmAwareness.jpg");
+	 background-repeat:none;
+	 height:281px;
+	 width:500px; 
+}
+
+.bannerContentOfVgm{
+    padding: 0px 0px 0px 0px !important;
+    background: none;
+    overflow: hidden !important;
+    height: 281px !important;
+    top: 120px;
+    width: 500px;
+    border-radius: 19px;
+    margin: 0 auto;
+	
+   }   
+   
+.btnVGMButtonPosition {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    top: 230px;
+    left: -49px;
+}
+
+.vgmBannerCLoseBtn {
+	margin-right: 16px; 
+	top: 10px;	
+}
+
+@media only screen and (max-device-width: 480px) {
+
+.btnVGMButtonPosition {
+   
+    top:175px;
+    left: -49px;
+}
+.bannerContentOfVgm{
+   
+    height: 227px !important;
+   
+   }   
+
+
+
+.vgmAwareness{
+	 background-image: url("../img/vgmAwarenessMobile.jpg");
+	 background-repeat:no-repeat;
+	 height:274px;
+	 width:400px; 
+}
+.vgmBannerCLoseBtn {
+	 top: 0px;	
+}
+
+
+.bannerContentOfVgm{
+left:0px !important;
+top:0px;
+width:100%;
+} 
+
+.addBanner {
+width: 97%;
+} 
+
+.btnFeedback{
+margin:-17px 0 3px 110px;
+}
+}

@@ -1,0 +1,690 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+h1
+	{mso-style-link:"Heading 1 Char";
+	margin-top:6.0pt;
+	margin-right:-.55pt;
+	margin-bottom:6.0pt;
+	margin-left:1.0cm;
+	text-indent:-1.0cm;
+	line-height:13.0pt;
+	page-break-after:avoid;
+	font-size:10.5pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-link:"Comment Text Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	font-size:10.0pt;
+	font-family:"Cambria",serif;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{mso-style-link:"Body Text Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:70.9pt;
+	text-indent:-42.55pt;
+	line-height:13.0pt;
+	font-size:10.5pt;
+	font-family:"Arial",sans-serif;}
+p.MsoBodyText2, li.MsoBodyText2, div.MsoBodyText2
+	{mso-style-link:"Body Text 2 Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:119.05pt;
+	text-indent:-48.15pt;
+	line-height:13.0pt;
+	font-size:10.5pt;
+	font-family:"Arial",sans-serif;}
+p.MsoBodyText3, li.MsoBodyText3, div.MsoBodyText3
+	{mso-style-link:"Body Text 3 Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:172.95pt;
+	text-indent:-53.9pt;
+	line-height:13.0pt;
+	font-size:10.5pt;
+	font-family:"Arial",sans-serif;}
+a:link, span.MsoHyperlink
+	{color:#777777;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.85pt;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-link:"Comment Subject Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.CommentTextChar
+	{mso-style-name:"Comment Text Char";
+	mso-style-link:"Comment Text";
+	font-family:"Cambria",serif;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Tahoma",sans-serif;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.BodyTextChar
+	{mso-style-name:"Body Text Char";
+	mso-style-link:"Body Text";
+	font-family:"Arial",sans-serif;}
+span.BodyText2Char
+	{mso-style-name:"Body Text 2 Char";
+	mso-style-link:"Body Text 2";
+	font-family:"Arial",sans-serif;}
+span.BodyText3Char
+	{mso-style-name:"Body Text 3 Char";
+	mso-style-link:"Body Text 3";
+	font-family:"Arial",sans-serif;}
+span.CommentSubjectChar
+	{mso-style-name:"Comment Subject Char";
+	mso-style-link:"Comment Subject";
+	font-family:"Cambria",serif;
+	font-weight:bold;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-IN link="#777777" vlink=purple>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center'><b><span style='font-family:"Cambria",serif'>ODeX: Privacy Policy</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><span style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-autospace:none'><span style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-autospace:none'><span style='font-family:"Cambria",serif'>The
+privacy practices of this statement (“<b>Privacy Policy</b>”) apply to our services
+available under the domain and sub-domains of www.odex.co (<b>&quot;Website&quot;</b>).</span><span
+style='font-family:"Cambria",serif'> Through the Website, ODEX intends to
+provide a platform and host of services, including but not limited to (1) data
+entry and documents upload for invoice details and shipment enquires (2) online
+document management including issue and transfer of documents pertaining to
+shipment enquiries and transactions and (3) facilitation
+of&nbsp;electronic&nbsp;payments between you and beneficiary thereof (4) data
+collection and Payment Management to enable addition of e-convenience  fees (5)
+seamless payment and information management</span><span style='font-family:
+"Cambria",serif'> </span><span style='font-family:"Cambria",serif'> and (6)
+such other ancillary services to facilitate the above (<b>“Services”</b>).</span><span
+style='font-family:"Cambria",serif'> In this Privacy Policy, references to
+&quot;you&quot; or &quot;User&quot; shall mean references to the End User of
+the Website, all its contents and the Services (defined below) offered through
+the Website. The terms &quot;we&quot;, &quot;us&quot; and &quot;our&quot; shall
+mean&nbsp;ODEX.</span><span style='font-family:"Cambria",serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-autospace:none'><span style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-autospace:none'><span style='font-family:"Cambria",serif'>Your
+privacy is very important to us. We </span><span style='font-family:"Cambria",serif'>at
+www.odex.co (“<b>ODEX</b>”) </span><span style='font-family:"Cambria",serif'>do
+not sell or rent your personal information to third parties for their marketing
+purposes. Please read this Privacy Policy to learn more about the ways in which
+we use and protect your personal information. By visiting this website you
+agree to be bound by the terms and conditions of this Privacy Policy. If you do
+not agree please do not use or access our Website.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-autospace:none'><span style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-autospace:none'><span style='font-family:"Cambria",serif'>This
+Privacy Policy describes the information, as part of the normal operation of
+our services; we collect from you and what may happen to that information. By
+accepting the Privacy Policy and the User Agreement in registration, you
+expressly consent to our use and disclosure of your personal information in
+accordance with this Privacy Policy. This Privacy Policy is referred to and
+subject to the Terms of Use, User E-consent and the User Licence Agreement.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><span style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><b><span style='font-family:"Cambria",serif'>Information Collected
+under the Website </span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><span style='font-family:"Cambria",serif'>The types of personal
+information ODEX may collect through the Website shall include but not limit to:&nbsp;
+</span></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+     justify'><span style='font-family:"Cambria",serif'>Contact information,
+     Individual and/or business (such as name, company name, job position,
+     postal address, telephone numbers and email address) </span></li>
+ <li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+     justify'><span style='font-family:"Cambria",serif'>Contact information of
+     others to whom users ask us to send information, as permitted by law </span></li>
+ <li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+     justify'><span style='font-family:"Cambria",serif'>Cookie data and other
+     browser-related information as further described in the “Information We
+     Collect By Automated Means” section of this Online Privacy Notice, and </span></li>
+ <li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+     justify'><span style='font-family:"Cambria",serif'>Other information that
+     may be provided through the Sites (including through comments or questions
+     fields)</span></li>
+</ul>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify'><span
+style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<h1 style='margin-top:0cm;margin-right:-.55pt;margin-bottom:0cm;margin-left:
+1.0cm;margin-bottom:.0001pt;text-align:justify;line-height:115%'><span
+lang=EN-GB style='font-size:11.0pt;line-height:115%;font-family:"Cambria",serif'>IP
+addresses and cookies</span></h1>
+
+<p class=MsoBodyText style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:70.9pt;margin-bottom:.0001pt;text-align:justify;text-indent:0cm;
+line-height:115%'><span lang=EN-GB style='font-size:11.0pt;line-height:115%;
+font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:-18.0pt;
+line-height:115%'><span lang=EN-GB style='font-size:11.0pt;line-height:115%;
+font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-GB style='font-size:11.0pt;line-height:115%;
+font-family:"Cambria",serif'>We may collect information about your computer,
+including where available your IP address, operating system and browser type,
+for system administration. </span></p>
+
+<p class=MsoBodyText style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:-18.0pt;
+line-height:115%'><span lang=EN-GB style='font-size:11.0pt;line-height:115%;
+font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-GB style='font-size:11.0pt;line-height:115%;
+font-family:"Cambria",serif'>For the same reason, we may obtain information
+about your general internet usage by using a cookie file which is stored on the
+hard drive of your computer.  Cookies contain information that is transferred
+to your computer's hard drive.  They help us to improve our site and to deliver
+a better and more personalised service.  They enable us to:</span></p>
+
+<p class=MsoBodyText2 style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:108.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-18.0pt;line-height:115%'><span lang=EN-GB style='font-size:11.0pt;line-height:
+115%;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+lang=EN-GB style='font-size:11.0pt;line-height:115%;font-family:"Cambria",serif'>estimate
+our usage size and usage pattern;</span></p>
+
+<p class=MsoBodyText2 style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:108.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-18.0pt;line-height:115%'><span lang=EN-GB style='font-size:11.0pt;line-height:
+115%;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+lang=EN-GB style='font-size:11.0pt;line-height:115%;font-family:"Cambria",serif'>store
+information about your preferences, and so allow us to customise our site
+according to your individual interests;</span></p>
+
+<p class=MsoBodyText2 style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:108.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-18.0pt;line-height:115%'><span lang=EN-GB style='font-size:11.0pt;line-height:
+115%;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+lang=EN-GB style='font-size:11.0pt;line-height:115%;font-family:"Cambria",serif'>speed
+up your searches; and</span></p>
+
+<p class=MsoBodyText2 style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:108.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:
+-18.0pt;line-height:115%'><span lang=EN-GB style='font-size:11.0pt;line-height:
+115%;font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span
+lang=EN-GB style='font-size:11.0pt;line-height:115%;font-family:"Cambria",serif'>recognise
+you when you return to our site. </span></p>
+
+<p class=MsoBodyText style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:-18.0pt;
+line-height:115%'><span lang=EN-GB style='font-size:11.0pt;line-height:115%;
+font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-GB style='font-size:11.0pt;line-height:115%;
+font-family:"Cambria",serif'>Unless you have adjusted your browser setting so
+that it will refuse cookies, our system will issue cookies when you log on to
+our site. You may refuse to accept cookies by activating the setting on your
+browser which allows you to refuse the setting of cookies.  However, if you
+select this setting you may be unable to access certain parts of our Website.  </span></p>
+
+<p class=MsoBodyText style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:-18.0pt;
+line-height:115%'><span lang=EN-GB style='font-size:11.0pt;line-height:115%;
+font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-GB style='font-size:11.0pt;line-height:115%;
+font-family:"Cambria",serif'>Please note that our advertisers may also use
+cookies, over which we have no control.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><span style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><span style='font-family:"Cambria",serif'>When you use our Website, we
+collect and store your personal information from you. Our primary goal in doing
+so is to provide a safe, efficient, smooth and customized experience. Once you
+give us your personal information, you are not anonymous to us. To fully use
+our Website, you will need to register using our online registration form,
+where you may be required to provide us with your contact and identity
+information, residence / place of business information, billing information,
+bank account details and other personal information as indicated on the forms
+throughout the Website. Where possible, we indicate which fields are required
+and which fields are optional. You may provide us with a User ID. We may
+automatically track certain information about you based upon your behavior on our
+Website. We use this information to protect and serve our users. This
+information is compiled and analyzed on an aggregated basis. If you send us
+personal correspondence, such as emails or letters, or if other users or third
+parties send us correspondence about your activities or postings on the Website,
+we may collect such information into a file specific to you.</span></p>
+
+<h1 style='margin-top:0cm;margin-right:-.55pt;margin-bottom:0cm;margin-left:
+1.0cm;margin-bottom:.0001pt;text-align:justify;text-indent:0cm;line-height:
+115%'><span lang=EN-GB style='font-size:11.0pt;line-height:115%;font-family:
+"Cambria",serif'>&nbsp;</span></h1>
+
+<p class=MsoBodyText style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:70.9pt;margin-bottom:.0001pt;text-align:justify;text-indent:0cm;
+line-height:115%'><span lang=EN-GB style='font-size:11.0pt;line-height:115%;
+font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<h1 style='margin-top:0cm;margin-right:-.55pt;margin-bottom:0cm;margin-left:
+1.0cm;margin-bottom:.0001pt;text-align:justify;line-height:115%'><span
+lang=EN-GB style='font-size:11.0pt;line-height:115%;font-family:"Cambria",serif'>&nbsp;</span><span
+lang=EN-GB style='font-size:11.0pt;line-height:115%;font-family:"Cambria",serif'>Where
+we store your personal data</span></h1>
+
+<p class=MsoBodyText style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:70.9pt;margin-bottom:.0001pt;text-align:justify;text-indent:0cm;
+line-height:115%'><span lang=EN-GB style='font-size:11.0pt;line-height:115%;
+font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:-18.0pt;
+line-height:115%'><span lang=EN-GB style='font-size:11.0pt;line-height:115%;
+font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-GB style='font-size:11.0pt;line-height:115%;
+font-family:"Cambria",serif'>The data that we collect from you will not be
+transferred to or stored at a destination outside India.  We will take all
+steps reasonably necessary to ensure that your data is treated securely and in
+accordance with this Privacy Policy.</span></p>
+
+<p class=MsoBodyText style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:-18.0pt;
+line-height:115%'><span lang=EN-GB style='font-size:11.0pt;line-height:115%;
+font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-GB style='font-size:11.0pt;line-height:115%;
+font-family:"Cambria",serif'>Where we have given you (or where you have chosen)
+a password which enables you to access certain parts of our site, you are
+responsible for keeping this password confidential. 
+We ask you not to share a password with anyone.</span></p>
+
+<p class=MsoBodyText style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify;text-indent:-18.0pt;
+line-height:115%'><span lang=EN-GB style='font-size:11.0pt;line-height:115%;
+font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-GB style='font-size:11.0pt;line-height:115%;
+font-family:"Cambria",serif'>Unfortunately, the transmission of information via
+the internet is not completely secure.  Although we will do our best to protect
+your personal data, We cannot guarantee the security of your data transmitted
+to our site; any transmission is at your own risk.  Once We have received your
+information, we will use strict procedures and security features to try to
+prevent unauthorised access.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><span style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><b><span style='font-family:"Cambria",serif'>Use of the Information
+Collected under the Website</span></b><span style='font-family:"Cambria",serif'>
+</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><span style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><span style='font-family:"Cambria",serif'>ODEX may use the information
+described above to: </span></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+     justify'><span style='font-family:"Cambria",serif'>Establish and manage
+     your  ODEX account or reset your password; </span></li>
+ <li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+     justify'><span style='font-family:"Cambria",serif'>Initiate Data and
+     documents transfer pertaining to the Services and obtain logistics
+     information and other information thereunder;</span></li>
+ <li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+     justify'><span style='font-family:"Cambria",serif'>Respond to your inquiry
+     or communicate with you about your requests, questions and comments; </span></li>
+ <li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+     justify'><span style='font-family:"Cambria",serif'>Send information under
+     the Services to you and/or your contacts as the case may be;</span></li>
+ <li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+     justify'><span style='font-family:"Cambria",serif'>Operate, evaluate and
+     improve our Services; </span></li>
+ <li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+     justify'><span style='font-family:"Cambria",serif'>Protect against,
+     identify and prevent fraud and other unlawful activity, claims and other
+     liabilities;</span></li>
+ <li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+     justify'><span style='font-family:"Cambria",serif'>Ensure that content
+     from our site is presented in the most effective manner for you and for
+     your computer;</span></li>
+ <li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+     justify'><span style='font-family:"Cambria",serif'>Provide you with
+     information or services that you request from us or which We feel may
+     interest you, where you have consented to be contacted for such purposes;</span></li>
+ <li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+     justify'><span style='font-family:"Cambria",serif'>Comply with and enforce
+     applicable legal requirements, relevant industry standards and the provisions
+     of this Privacy Policy. </span></li>
+ <li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+     justify'><span style='font-family:"Cambria",serif'>Allow you to
+     participate in interactive features of our service, when you choose to do
+     so; and</span></li>
+ <li class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+     justify'><span style='font-family:"Cambria",serif'>Notify you about
+     changes to our service.</span></li>
+</ul>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:36.0pt;margin-bottom:.0001pt;text-align:justify'><span
+style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><span style='font-family:"Cambria",serif'>At times, we may look across
+multiple users to identify problems or resolve disputes, and in particular we
+may examine your personal information to identify users using multiple User IDs
+or aliases. We may compare and review your personal information for errors,
+omissions and for accuracy.  If you provide us with your financial information,
+we use your information to provide associated support. You agree that we may
+use personal information about you to improve our marketing and promotional
+efforts, to analyze site usage, customize the Website's content, layout and
+services, and to improve the Website's content and offer additional services.
+These uses improve the Website and better tailor it to meet your needs, so as
+to provide you with a smooth, efficient, safe and customized experience while
+using the Website. You agree that we may use your personal information to
+contact you and deliver information to you that, in some cases, are targeted to
+your interests, administrative notices, additional services offered, and
+communications relevant to your use of the Website. By accepting the Terms of
+Use (<b><i>add hyperlink</i></b>) and Privacy Policy, you expressly agree to
+receive this information. If you do not wish to receive these communications, we
+encourage you to opt out of the receipt of certain communications in your
+profile. You may make changes to your profile at any time.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><span style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span style='font-family:"Cambria",serif'>Disclosure of
+your information&nbsp; </span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><span style='font-family:"Cambria",serif'>As stated hereinabove, We do
+not sell or otherwise disclose personal information we collect about you,
+except as described in this Privacy Policy.&nbsp;&nbsp; We may share personal
+information with service providers who perform services on our behalf based on
+our instructions.&nbsp; We do not authorize these service providers to use or
+disclose the information except as necessary to perform services on our behalf
+or comply with legal requirements.&nbsp; Examples of these service providers
+include entities that verify information and provide web hosting, analytics and
+marketing services.&nbsp; We also may share the personal information we obtain
+with our subsidiaries and affiliates.&nbsp; </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><span style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><span style='font-family:"Cambria",serif'>In addition, we may disclose
+information about you </span></p>
+
+<p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:90.0pt;margin-bottom:.0001pt;text-align:justify;
+text-indent:-36.0pt'><span style='font-family:"Cambria",serif'>(i)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Cambria",serif'>if we are required to
+do so by applicable law or legal process, </span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:90.0pt;margin-bottom:.0001pt;text-align:justify;
+text-indent:-36.0pt'><span style='font-family:"Cambria",serif'>(ii)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Cambria",serif'>to law enforcement
+authorities or other government entities, and </span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:90.0pt;margin-bottom:.0001pt;text-align:justify;
+text-indent:-36.0pt'><span style='font-family:"Cambria",serif'>(iii)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:"Cambria",serif'>when we believe
+disclosure is necessary or appropriate to prevent physical harm or financial
+loss, or in connection with an investigation of suspected or actual fraudulent
+or illegal activity. We also reserve the right to transfer personal information
+we have about you in the event we sell or transfer all or a portion of our
+business or assets (including in the event of a reorganization, dissolution or
+liquidation).&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:90.0pt;margin-bottom:.0001pt;text-align:justify'><span
+style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+margin-left:54.0pt;margin-bottom:.0001pt;text-align:justify'><span
+style='font-family:"Cambria",serif'>By using the Website, you consent to the
+collection and use of the information you disclose on the Website by ODEX. </span><span
+style='font-family:"Cambria",serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><b><span style='font-family:"Cambria",serif'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><b><span style='font-family:"Cambria",serif'>Your Rights and Choices </span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><span style='font-family:"Cambria",serif'>We offer you certain choices
+in connection with the personal information we collect from you.&nbsp; You may
+choose not to receive email communications from us by clicking on the
+unsubscribe link in our emails.&nbsp; To update your preferences or submit a
+request, please contact us as indicated in the “How To Contact Us” section of
+this Privacy Policy.&nbsp; To the extent provided by the law of your
+jurisdiction, you may request access to the personal information we maintain
+about you or request that we correct, amend, delete or block the information by
+contacting us as indicated below.&nbsp; Where provided by law, you may withdraw
+any consent you previously provided to us or object at any time on legitimate
+grounds to the processing of your personal information, and we will apply your
+preferences going forward.&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><span style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><b><span style='font-family:"Cambria",serif'>Data Transfers</span></b><span
+style='font-family:"Cambria",serif'>&nbsp;&nbsp;&nbsp; </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><span style='font-family:"Cambria",serif'>We may transfer the personal
+information we collect about you through the Sites to countries other than the
+country in which the information originally was collected.&nbsp; Those
+countries may not have the same data protection laws as the country in which
+you initially provided the information.&nbsp; When we transfer your information
+to other countries, we will protect that information as described in this
+Privacy Policy. </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><span style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><b><span style='font-family:"Cambria",serif'>How We Protect Personal
+Information</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><span style='font-family:"Cambria",serif'>We maintain administrative,
+organizational, technical and physical safeguards designed to protect the
+personal information obtained through the Sites against accidental, unlawful or
+unauthorized destruction, loss, alteration, access, disclosure or use.&nbsp; </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><span style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><b><span style='font-family:"Cambria",serif'>Links To Other Websites
+and Apps</span></b><span style='font-family:"Cambria",serif'> </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><span style='font-family:"Cambria",serif'>Our Sites may provide links
+to other websites or apps for your convenience and information.&nbsp; These websites
+may operate independently from us.&nbsp; Linked sites and apps may have their
+own privacy notices or policies, which we strongly suggest you review.&nbsp; To
+the extent any linked websites are not owned or controlled by us, we are not
+responsible for the websites’ or apps’ content, any use of the websites or
+apps, or the privacy practices of the websites or apps.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><span style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><b><span style='font-family:"Cambria",serif'>Security</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><span style='font-family:"Cambria",serif'>When provide or access your
+account information, we offer the use of a secure server. The secure server
+software (SSL) encrypts all information you put in before it is sent to us.
+Furthermore, all of the data we collect is protected against unauthorized
+access. To prevent unauthorized access, maintain data accuracy, and ensure
+correct use of information, we will employ reasonable and current Internet
+security methods and technologies.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><b><span style='font-family:"Cambria",serif'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><b><span style='font-family:"Cambria",serif'>Contact Us</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><span style='font-family:"Cambria",serif'>If you have any questions or
+comments about this Privacy Policy, or if you would like us to update
+information we have about you or your preferences, please contact us b<b>y support@odex.co</b>.&nbsp;
+You also may write to:&nbsp; </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><span style='font-family:"Cambria",serif'>Address: Odex India
+Solutions Pvt. Ltd., 606-607, Damji Shamji Corporate Square, Laxmi Nagar,
+Ghatkopar East, Mumbai – 400 075. India.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><span style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify'><span style='font-family:"Cambria",serif'>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>
